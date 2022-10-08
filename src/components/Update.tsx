@@ -11,7 +11,6 @@ export const Update = () => {
     const post = useAppSelector(state => state.jsp)
     let [updateTitle, setUpdateTitle] = useState(post[0].title)
 
-
     const updatePayload = {
         userId: post[0].userId,
         id: Number(params.id),
